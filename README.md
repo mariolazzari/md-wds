@@ -2,6 +2,8 @@
 
 ## Standard features
 
+### Paragraphs
+
 paragraph one
 
 paragraph two with new line (2 spaces at the end)  
@@ -27,6 +29,9 @@ This is mixed tags _**italics and bold**_ text (don't use)
 This is mixed tags *__italics and bold__* text (don't use)
 
 ## Extended features
+
+### Texts
+
 This is a ~~cossed~~ text
 This is another ~cossed~ text (don't use)
 
@@ -41,7 +46,7 @@ This is a <sub>subscript tag </sub> (ex.: H<sub>2</sub>O)
 
 Smile emoji :smile:
 
-## Render code
+### Render code
 
 Single lines 
 `this is code`
@@ -72,3 +77,92 @@ names.forEach(name =>{
 })
 ```
 
+### Links
+This is [my site](https://mariolazzari.it)
+This is my site <https://mariolzzari.it>
+
+### Images
+This is ![my logo](https://www.mariolazzari.it/_next/static/media/logo.61b7d0dd.png)
+
+### Quotes
+> quoted line 1
+> quoted line 2
+> quoted line 3
+>
+>> nested line after a blank one
+>>> double nested line
+>>>> triple nested line
+
+### Horizontal lines
+
+---
+___
+***
+
+### Lists
+
+#### Oredered list
+
+1. Item 1
+2. Item 2
+3. Item 3
+
+#### Unordered list (*)
+* Item 1
+* Item 2
+* Item 3
+
+#### Unordered list (-)
+- Item 1
+- Item 2
+- Item 3
+
+#### Unordered list (+)
++ Item 1
++ Item 2
++ Item 3
+
+#### Nested items (tab or 4 spaces)
+* Item 1
+  * Subitem 1
+* Item 2
+* Item 3
+  * Subitem 3
+    * Sub item 3 details
+  
+### Github extended features
+
+#### Tables
+
+| Name | age |
+| --- | --- |
+| Mario | 48 |
+| Mariarosa | 47 |
+
+##### Left aling
+
+| Name | age |
+| ---  | :--- |
+| Mario | 48 |
+| Mariarosa | 47 |
+
+##### Right aling
+
+| Name | age |
+| ---  | ---: |
+| Mario | 48 |
+| Mariarosa | 47 |
+
+##### Center aling
+
+| Name | age |
+| ---  | :---: |
+| Mario | 48 |
+| Mariarosa | 47 |
+
+### Check list (task list)
+
+- [ ] unchecked item
+- [x] checked item
+- [ ] unchecked item
+- [X] checked item 
